@@ -8,8 +8,10 @@
 	<name>SSHBase Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<properties>
+		<!-- 统一编码 -->
 		<argLine>-Dfile.encoding=UTF-8</argLine>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<!-- 统一版本 -->
 		<spring-webmvc.version>4.3.2.RELEASE</spring-webmvc.version>
 	</properties>
 	<dependencies>
@@ -116,7 +118,6 @@
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
-			<!-- 解决maven命令时console出现中文乱码乱码 -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
