@@ -12,7 +12,7 @@
 		<argLine>-Dfile.encoding=UTF-8</argLine>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<!-- 统一版本 -->
-		<spring-webmvc.version>4.3.2.RELEASE</spring-webmvc.version>
+		<spring-webmvc.version>4.3.3.RELEASE</spring-webmvc.version>
 	</properties>
 	<dependencies>
 		<!-- JUnit测试包 -->
